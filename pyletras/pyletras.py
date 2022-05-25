@@ -7,7 +7,9 @@
 import requests
 from bs4 import BeautifulSoup
 
-def pyletras(name=input("Digite o nome da banda: "),cancao=input("Qual nome da canção que deseja buscar: ")):
+def pyletras():
+    name=input("Digite o nome da banda: ")
+    cancao=input("Qual nome da canção que deseja buscar: ")
     url = requests.get(f"https://www.letras.mus.br/{name.replace(' ', '-').lower()}/{cancao.replace(' ', '-').lower()}")
     soup = BeautifulSoup(url.content)
     try:
