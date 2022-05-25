@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pyletras/__init__.py
+pyletras/pyletras.py
+pyletras.egg-info/PKG-INFO
+pyletras.egg-info/SOURCES.txt
+pyletras.egg-info/dependency_links.txt
+pyletras.egg-info/requires.txt
+pyletras.egg-info/top_level.txt
